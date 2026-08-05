@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — HMA CyberTech</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<canvas id="matrix-canvas"></canvas>
+<div class="grid-overlay"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><img src="assets/logo.png" alt="HMA CyberTech" class="brand-logo"></a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tools.html">Tools</a>
+      <a href="training.html">Training</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+  </div>
+</nav>
+
+<header class="pagehead" style="padding-top:60px; padding-bottom:40px;">
+  <div class="wrap">
+    <div class="crumb">DASHBOARD / <span>OVERVIEW</span></div>
+    <h1 style="font-size:34px;">Welcome back, Analyst.</h1>
+    <p class="lede">This is a static preview of the client/student dashboard — live data connects once your account is provisioned.</p>
+  </div>
+</header>
+
+<main style="position:relative; z-index:2;">
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="grid grid-4" style="margin-bottom:40px;">
+        <div class="hud"><span class="bl"></span><span class="br"></span><span class="hud-tag">Course progress</span><h3 style="font-size:28px;">64%</h3><p>Ethical Hacking — Week 8 of 12</p></div>
+        <div class="hud"><span class="bl"></span><span class="br"></span><span class="hud-tag">Open findings</span><h3 style="font-size:28px;">3</h3><p>Across active engagements</p></div>
+        <div class="hud"><span class="bl"></span><span class="br"></span><span class="hud-tag">Certificates</span><h3 style="font-size:28px;">2</h3><p>Issued to your profile</p></div>
+        <div class="hud"><span class="bl"></span><span class="br"></span><span class="hud-tag">SOC alerts (24h)</span><h3 style="font-size:28px;">14</h3><p>1 escalated, 13 resolved</p></div>
+      </div>
+
+      <div class="eyebrow">Recent Activity</div>
+      <div class="rowlist">
+        <div class="row"><span class="idx">·</span><span class="title" style="font-size:16px;">Lab 8 submitted</span><span class="desc">Ethical Hacking cohort</span><span class="tag">2H AGO</span></div>
+        <div class="row"><span class="idx">·</span><span class="title" style="font-size:16px;">Report ready</span><span class="desc">VAPT — staging.client-app.io</span><span class="tag">1D AGO</span></div>
+        <div class="row"><span class="idx">·</span><span class="title" style="font-size:16px;">Certificate issued</span><span class="desc">Kali Linux Fundamentals</span><span class="tag">4D AGO</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-bottom" style="border-top:1px solid var(--line);">
+    <span>© 2026 HMA CYBERTECH. All rights reserved.</span>
+    <span>Built for the defenders.</span>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
