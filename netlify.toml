@@ -1,0 +1,3 @@
+[build]
+  base = "hma-cybertech-site-3/hma-cybertech-site"
+  publish = "."
