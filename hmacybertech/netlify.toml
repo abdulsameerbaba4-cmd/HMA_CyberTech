@@ -1,0 +1,5 @@
+# The Netlify project's base directory is "hmacybertech", but the site's files
+# live in hma-cybertech-site-3/hma-cybertech-site. Copy them into a publish folder.
+[build]
+  command = "rm -rf dist && mkdir -p dist && cp -R ../hma-cybertech-site-3/hma-cybertech-site/. dist/"
+  publish = "dist"
